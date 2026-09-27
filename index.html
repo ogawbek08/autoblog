@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoBlog — Avtomobillar olami</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#">AUTO<span>BLOG</span></a>
+    <nav>
+      <a href="#home">Bosh sahifa</a>
+      <a href="#cars">Mashinalar</a>
+      <a href="#news">Yangiliklar</a>
+      <a href="#about">Biz haqimizda</a>
+    </nav>
+    <button id="themeBtn" class="theme-btn">☾</button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">AVTOMOBILLAR OLAMI</p>
+      <h1>Tezlik, texnologiya va <span>uslub</span>.</h1>
+      <p class="lead">Yangi avtomobillar, qiziqarli ma'lumotlar va avtomobil yangiliklari bir joyda.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#cars">Mashinalarni ko‘rish</a>
+        <a class="btn secondary" href="#news">Maqolalarni o‘qish</a>
+      </div>
+    </div>
+    <div class="hero-car">
+      <div class="car-glow"></div>
+      <div class="car-emoji">🏎️</div>
+      <div class="spec-card"><b>2026</b><span>Yangi modellar</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="cars" class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><p class="eyebrow">KATALOG</p><h2>Mashhur avtomobillar</h2></div>
+      <input id="search" class="search" placeholder="Mashina qidirish...">
+    </div>
+    <div id="carGrid" class="car-grid"></div>
+  </div>
+</section>
+
+<section id="news" class="section alt">
+  <div class="container">
+    <p class="eyebrow">BLOG</p>
+    <h2>So‘nggi maqolalar</h2>
+    <div class="posts">
+      <article class="post"><div class="post-icon">⚡</div><div><small>AVTO TEXNOLOGIYA</small><h3>Elektromobillar kelajagi</h3><p>Elektr avtomobillarda yangi texnologiyalar qanday rivojlanmoqda?</p><a href="#">Batafsil →</a></div></article>
+      <article class="post"><div class="post-icon">🔧</div><div><small>FOYDALI MASLAHAT</small><h3>Avtomobilni parvarish qilish</h3><p>Mashinangizni uzoq vaqt yaxshi holatda saqlash uchun asosiy tavsiyalar.</p><a href="#">Batafsil →</a></div></article>
+      <article class="post"><div class="post-icon">🏁</div><div><small>AVTOOLAM</small><h3>Sport avtomobillari</h3><p>Yuqori unumdorlik va zamonaviy dizayn uyg‘unligi haqida.</p><a href="#">Batafsil →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-box">
+    <div><p class="eyebrow">AUTOBLOG</p><h2>Avtomobilga qiziqqanlar uchun.</h2></div>
+    <p>AutoBlog — avtomobillar haqida ma'lumot, maqola va yangiliklarni jamlaydigan zamonaviy blog konsepti.</p>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><span>© 2026 AutoBlog</span><span>Avtomobillar olami</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
