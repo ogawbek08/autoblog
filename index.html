@@ -15,6 +15,7 @@
       <a href="#cars">Mashinalar</a>
       <a href="#news">Yangiliklar</a>
       <a href="#about">Biz haqimizda</a>
+      <a href="#contact">Aloqa</a>
     </nav>
     <button id="themeBtn" class="theme-btn">☾</button>
   </div>
@@ -63,9 +64,38 @@
 </section>
 
 <section id="about" class="about">
-  <div class="container about-box">
-    <div><p class="eyebrow">AUTOBLOG</p><h2>Avtomobilga qiziqqanlar uchun.</h2></div>
-    <p>AutoBlog — avtomobillar haqida ma'lumot, maqola va yangiliklarni jamlaydigan zamonaviy blog konsepti.</p>
+  <div class="container">
+    <div class="about-box">
+      <div><p class="eyebrow">AUTOBLOG</p><h2>Avtomobilga qiziqqanlar uchun.</h2></div>
+      <p>AutoBlog — avtomobillar haqida ma'lumot, maqola va yangiliklarni jamlaydigan zamonaviy blog konsepti. Biz har kuni eng so‘nggi avtomobil yangiliklari, texnik sharhlar va foydali maslahatlarni sizga yetkazamiz. Maqsadimiz — avtomobil dunyosini barchaga tushunarli va qiziqarli qilib ko‘rsatish.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat"><b>250+</b><span>Maqolalar</span></div>
+      <div class="stat"><b>40+</b><span>Avtomobil brendlari</span></div>
+      <div class="stat"><b>15K+</b><span>O‘quvchilar</span></div>
+      <div class="stat"><b>2019</b><span>Ish boshlagan yil</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section alt">
+  <div class="container">
+    <p class="eyebrow">ALOQA</p>
+    <h2>Biz bilan bog‘laning</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item"><span class="c-icon">📍</span><div><b>Manzil</b><p>Toshkent sh., Amir Temur ko‘chasi, 12-uy</p></div></div>
+        <div class="contact-item"><span class="c-icon">✉️</span><div><b>Email</b><p>info@autoblog.uz</p></div></div>
+        <div class="contact-item"><span class="c-icon">📞</span><div><b>Telefon</b><p>+998 90 123 45 67</p></div></div>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="cName" placeholder="Ismingiz" required>
+        <input type="email" id="cEmail" placeholder="Email manzilingiz" required>
+        <textarea id="cMessage" rows="4" placeholder="Xabaringiz" required></textarea>
+        <button type="submit" class="btn primary">Yuborish</button>
+        <p id="formMsg" class="form-msg"></p>
+      </form>
+    </div>
   </div>
 </section>
 </main>

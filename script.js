@@ -19,3 +19,14 @@ document.getElementById("themeBtn").addEventListener("click",()=>{
  document.body.classList.toggle("light");
  document.getElementById("themeBtn").textContent=document.body.classList.contains("light")?"☀":"☾";
 });
+
+const contactForm=document.getElementById("contactForm");
+if(contactForm){
+ contactForm.addEventListener("submit",e=>{
+  e.preventDefault();
+  const name=document.getElementById("cName").value.trim();
+  const msg=document.getElementById("formMsg");
+  msg.textContent=`Rahmat, ${name}! Xabaringiz qabul qilindi, tez orada bog‘lanamiz.`;
+  contactForm.reset();
+ });
+}
